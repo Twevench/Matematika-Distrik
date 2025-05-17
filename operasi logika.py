@@ -19,22 +19,22 @@ print("_________________________")
 #Menampilkan Header tabel
 print("P\t|Q\t|P AND Q")
 print("_________________________")
-# Menggunakan Operator logika 'AND'
+# Menggunakan Operator logika 'OR'
 for P in [True, False]:
     for Q in [True, False]:
         disjungsi = P or Q
         print(f"{P}\t|{Q}\t{disjungsi}")
 print()
 
-# Menbuat jdul Tabel
-print("TABEL KEBENARAN NEGASI")
+# Menbuat judul Tabel
+print("TABEL KEBENARAN IMPLIKASI")
 print("_________________________")
 
 # #Menampilkan Header tabel
 print("P\t|Q\t|P AND Q")
 print("_________________________")
-# Menggunakan Operator logika 'AND'
+# Menggunakan Operator logika 'XOR'
 for P in [True, False]:
     for Q in [True, False]:
         negasi = not P or Q
-        print(f"{P}\t|{Q}\t|{negasi}")
+        print(f"{P}\t|{Q}\t|{implikasi}")
